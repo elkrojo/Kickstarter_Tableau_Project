@@ -11781,19 +11781,41 @@ div#notebook {
 <h1 id="Udacity-DAND-Project:-Create-a-Tableau-Story">Udacity DAND Project: Create a Tableau Story<a class="anchor-link" href="#Udacity-DAND-Project:-Create-a-Tableau-Story">&#182;</a></h1><h2 id="by-Ronan-Casey">by Ronan Casey<a class="anchor-link" href="#by-Ronan-Casey">&#182;</a></h2><h2 id="Links">Links<a class="anchor-link" href="#Links">&#182;</a></h2><p>All revisions can be found on my Tableau public profile page.</p>
 <p><a href="https://public.tableau.com/profile/r.casey">https://public.tableau.com/profile/r.casey</a></p>
 <h2 id="Summary:">Summary:<a class="anchor-link" href="#Summary:">&#182;</a></h2><p>My visualisation explores Kickstarter project campaign data from 2009 to 2017. Kickstarter is a crowd funding website where users can seek funding for projects in development. Only projects that are funded will go into development. My focus for this visualisation is to reveal the most successful projects, and see what role campaign duration plays in success.</p>
-<h2 id="Design:">Design:<a class="anchor-link" href="#Design:">&#182;</a></h2><p>I chose bar charts to represent differences between overall values, packed bubbles for general distribution comparisons, line graphs for following historical performance and circle views for plotting multivariate distributions. Common categories are highligted when hovered over on relevant charts. My "Top 10" graphs combine a number of measurements with average pledge and number of backers represented by hue and size respectively. The tooltip feature displays more detailed information for each point. My "Duration Effect" chart uses an active filter to select and compare distributions between subcategories.</p>
-<p>Early drafts had a North/South orientation for the project names on the “Top 10” charts. This was highlighted as a difficulty from one reviewer. The software doesn’t seem to support text wrapping for labels even though the option is present. I was able to address this issue by entering each project name manually as an annotation field.</p>
-<h2 id="Feedback:">Feedback:<a class="anchor-link" href="#Feedback:">&#182;</a></h2><h3 id="rev1.0">rev1.0<a class="anchor-link" href="#rev1.0">&#182;</a></h3><p>via slack chat:</p>
+<h2 id="Design:">Design:<a class="anchor-link" href="#Design:">&#182;</a></h2><p>I chose bar charts to represent differences between overall values, packed bubbles for general distribution comparisons, line graphs for following historical performance and circle views for plotting multivariate distributions. Common categories are highligted when hovered over on relevant charts. My "Top 10" graphs combine a number of measurements with average pledge and campaign duration represented by hue and size respectively. The tooltip feature displays more detailed information for each point. My "Duration Effect" chart uses an active filter to select and compare distributions between subcategories.</p>
+<p>Early drafts had a North/South orientation for the project names on the “Top 10” charts. This was highlighted as a difficulty by one reviewer. The software doesn’t seem to support text wrapping for labels even though the option is present. I was able to address this issue by entering each project name manually as an annotation field.</p>
+<p>A pie chart was added to the introduction to give a general view of all campaigns and how they played out. Captions were re-drafted to explain the charts more clearly. The final plot was changed to a bar chart in order to better display the duration distribution for each "Top 10" campaign.</p>
+<h2 id="Feedback:">Feedback:<a class="anchor-link" href="#Feedback:">&#182;</a></h2><h3 id="rev1.0">rev1.0<a class="anchor-link" href="#rev1.0">&#182;</a></h3><p>via Slack chat:</p>
 <blockquote><p>I think visually it looks great, nice job with that. It's pretty neat and easy to read
 Not exactly sure what you're trying to convey though. Judging from the other projects I've seen, I think you should have a clear objective of what you're trying to tell the reader. I feel like it needs an intro slide or something and one near the end with your conclusion about what the data is showing.</p>
 </blockquote>
-<h3 id="rev1.1">rev1.1<a class="anchor-link" href="#rev1.1">&#182;</a></h3><p>via slack chat:</p>
+<h3 id="rev1.1">rev1.1<a class="anchor-link" href="#rev1.1">&#182;</a></h3><p>via Slack chat:</p>
 <blockquote><p>I like the interactivity of the last slide - being able to select all or a combination of campaigns. On the "Top 10" slides, it took me a while to correlate the "Backers" legend to the size of the circles (true?). Strictly from aesthetics, I also wanted to be able to read the campaign names easier as I was very curious about what they were, but the north-south orientation makes it difficult.</p>
+</blockquote>
+<h3 id="rev1.2">rev1.2<a class="anchor-link" href="#rev1.2">&#182;</a></h3><p>via Udacity reviewer:</p>
+<blockquote><p>Whole story: some charts are bit too tall and require scrolling. Tableau offers options for using automatic size for story and dashboard. You might want to explore that.</p>
+<p>Slide 1: A nice introduction. It sets the expectation on a reader mind about what is coming. Good job. Could it be possible to have a pie-chart showing portions of project that exceed the set goals?</p>
+<p>Slide 2: Nice chart. Needs a better caption. I would recommend deleting the annotation, and use a caption like, 'For 2009-2017 Design, Games and Technology are the predominant sectors, taking up xx, yy, and zz% of the total funding.' It would be great if could put % (% is highly intuitive for human brains) labels.</p>
+<p>Slide 3: A beautiful chart! In need of a nicer caption. Please try to identify some facts and state it in the caption.</p>
+<p>Slide 4, 5, 6: Beautiful charts. I am happy to see that you have been meticulously consistent about the color use. Awesome. Please try to improve the caption with some statement of facts.</p>
+<p>Slide 7: I have some hesitation, much like you. The y-axis label says "Excess Percentage" but shows actual number. I'd suggest to use grouped or (stacked) bar chart (since circles are often overlapped) and then make a comparison. If you are happy about 30-day, state that in the caption. I would not write any hesitation in the annotation (it tends to give a negative feeling.)</p>
 </blockquote>
 <h2 id="Resources:">Resources:<a class="anchor-link" href="#Resources:">&#182;</a></h2><p>Tableau Help pages</p>
 
 </div>
 </div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+</div>
+</div>
+</div>
+
 </div>
     </div>
   </div>
